@@ -1,0 +1,666 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items(fields(id,Title,Calorie,ItemStartDate,FoodCategory))",
+    "value": [
+        {
+            "@odata.etag": "\"80b042a3-4843-449b-b9c2-3681196c4e46,14\"",
+            "createdBy": {
+                "user": {
+                    "id": "33737a17-f7b2-453e-8b3e-597a8441a8e7",
+                    "displayName": "admin"
+                }
+            },
+            "createdDateTime": "2017-11-10T12:52:32Z",
+            "eTag": "\"80b042a3-4843-449b-b9c2-3681196c4e46,14\"",
+            "id": "6",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:40:42Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/6_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('6')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"80b042a3-4843-449b-b9c2-3681196c4e46,14\"",
+                "Title": "Arpa Şehriye Çorba",
+                "FoodCategory": "ÇORBA",
+                "Calorie": "160",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "6"
+            }
+        },
+        {
+            "@odata.etag": "\"0e4fc884-9d16-4da2-8e9b-3594f508e80a,14\"",
+            "createdBy": {
+                "user": {
+                    "id": "33737a17-f7b2-453e-8b3e-597a8441a8e7",
+                    "displayName": "admin"
+                }
+            },
+            "createdDateTime": "2017-11-10T12:55:14Z",
+            "eTag": "\"0e4fc884-9d16-4da2-8e9b-3594f508e80a,14\"",
+            "id": "12",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:40:45Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/12_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('12')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"0e4fc884-9d16-4da2-8e9b-3594f508e80a,14\"",
+                "Title": "Şafak Çorba",
+                "FoodCategory": "EXPRESS MENÜ",
+                "Calorie": "270",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "12"
+            }
+        },
+        {
+            "@odata.etag": "\"2172340b-e7dd-464d-99c3-2fddc9e6e5f7,13\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2017-12-20T12:03:22Z",
+            "eTag": "\"2172340b-e7dd-464d-99c3-2fddc9e6e5f7,13\"",
+            "id": "17",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:40:48Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/17_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('17')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"2172340b-e7dd-464d-99c3-2fddc9e6e5f7,13\"",
+                "Title": "Fasulye",
+                "FoodCategory": "ÇORBA",
+                "Calorie": "213",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "17"
+            }
+        },
+        {
+            "@odata.etag": "\"efe12382-93e5-4d5a-91c7-cf273188f72b,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2017-12-20T12:03:25Z",
+            "eTag": "\"efe12382-93e5-4d5a-91c7-cf273188f72b,10\"",
+            "id": "19",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:40:51Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/19_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('19')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"efe12382-93e5-4d5a-91c7-cf273188f72b,10\"",
+                "Title": "Fasulye",
+                "FoodCategory": "ÇORBA",
+                "Calorie": "215",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "19"
+            }
+        },
+        {
+            "@odata.etag": "\"1a673323-3281-43ae-97c4-278d31842e19,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-12T07:14:37Z",
+            "eTag": "\"1a673323-3281-43ae-97c4-278d31842e19,9\"",
+            "id": "21",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:40:55Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/21_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('21')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"1a673323-3281-43ae-97c4-278d31842e19,9\"",
+                "Title": "Patates Musakka",
+                "FoodCategory": "ANA YEMEK",
+                "Calorie": "280",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "21"
+            }
+        },
+        {
+            "@odata.etag": "\"d49199bd-4edd-404c-8ca9-bdf5ca819c6a,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-12T07:14:56Z",
+            "eTag": "\"d49199bd-4edd-404c-8ca9-bdf5ca819c6a,9\"",
+            "id": "22",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:40:57Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/22_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('22')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"d49199bd-4edd-404c-8ca9-bdf5ca819c6a,9\"",
+                "Title": "Mevsim Türlü",
+                "FoodCategory": "ANA YEMEK",
+                "Calorie": "210",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "22"
+            }
+        },
+        {
+            "@odata.etag": "\"2d7caeab-cc81-479e-adea-8e3796977755,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-12T07:15:18Z",
+            "eTag": "\"2d7caeab-cc81-479e-adea-8e3796977755,9\"",
+            "id": "23",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:00Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/23_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('23')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"2d7caeab-cc81-479e-adea-8e3796977755,9\"",
+                "Title": "Şehriyeli Pilav",
+                "FoodCategory": "ANA YEMEK",
+                "Calorie": "180",
+                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "id": "23"
+            }
+        },
+        {
+            "@odata.etag": "\"3e05cc9c-edfd-41be-9ebd-c2e37a88c2c4,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-12T07:15:41Z",
+            "eTag": "\"3e05cc9c-edfd-41be-9ebd-c2e37a88c2c4,9\"",
+            "id": "24",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:11Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/24_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('24')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"3e05cc9c-edfd-41be-9ebd-c2e37a88c2c4,9\"",
+                "Title": "Sütlü İrmik Tatlısı",
+                "FoodCategory": "TATLI",
+                "Calorie": "290",
+                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "id": "24"
+            }
+        },
+        {
+            "@odata.etag": "\"3fffcd46-41fd-4450-b5ae-22890a14b8c1,8\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:18:18Z",
+            "eTag": "\"3fffcd46-41fd-4450-b5ae-22890a14b8c1,8\"",
+            "id": "25",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:14Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/25_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('25')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"3fffcd46-41fd-4450-b5ae-22890a14b8c1,8\"",
+                "Title": "YAYLA ÇORBA",
+                "FoodCategory": "ÇORBA",
+                "Calorie": "260",
+                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "id": "25"
+            }
+        },
+        {
+            "@odata.etag": "\"63680daf-afd7-4438-a503-ae9c1679e072,8\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:18:57Z",
+            "eTag": "\"63680daf-afd7-4438-a503-ae9c1679e072,8\"",
+            "id": "26",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:19Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/26_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('26')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"63680daf-afd7-4438-a503-ae9c1679e072,8\"",
+                "Title": "DİYET ÇORBA",
+                "FoodCategory": "DİYET ÇORBA",
+                "Calorie": "100",
+                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "id": "26"
+            }
+        },
+        {
+            "@odata.etag": "\"cc3cbddf-18c0-4252-ad80-587564fce4be,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:19:19Z",
+            "eTag": "\"cc3cbddf-18c0-4252-ad80-587564fce4be,9\"",
+            "id": "27",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:23Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/27_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('27')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"cc3cbddf-18c0-4252-ad80-587564fce4be,9\"",
+                "Title": "PİLİÇ SOTE 365 KCA",
+                "FoodCategory": "ANA YEMEK",
+                "Calorie": "365",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "27"
+            }
+        },
+        {
+            "@odata.etag": "\"96ef9a25-28f1-4b6d-b5f1-d3160fae96b4,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:19:27Z",
+            "eTag": "\"96ef9a25-28f1-4b6d-b5f1-d3160fae96b4,9\"",
+            "id": "28",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:25Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/28_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('28')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"96ef9a25-28f1-4b6d-b5f1-d3160fae96b4,9\"",
+                "Title": "KURUFASULYE",
+                "FoodCategory": "ANA YEMEK",
+                "Calorie": "380",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "28"
+            }
+        },
+        {
+            "@odata.etag": "\"a0126c5d-f2a7-4ecd-96d9-7b541d926881,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:19:42Z",
+            "eTag": "\"a0126c5d-f2a7-4ecd-96d9-7b541d926881,10\"",
+            "id": "29",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:29Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/29_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('29')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"a0126c5d-f2a7-4ecd-96d9-7b541d926881,10\"",
+                "Title": "PİRİNÇ PİLAVI 345 KC",
+                "FoodCategory": "YARDIMCI YEMEK",
+                "Calorie": "345",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "29"
+            }
+        },
+        {
+            "@odata.etag": "\"6948a2c9-d23f-4859-aa31-279a4c87f7dd,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:19:42Z",
+            "eTag": "\"6948a2c9-d23f-4859-aa31-279a4c87f7dd,10\"",
+            "id": "30",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:33Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/30_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('30')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"6948a2c9-d23f-4859-aa31-279a4c87f7dd,10\"",
+                "Title": "ERİŞTE KAVURMA",
+                "FoodCategory": "YARDIMCI YEMEK",
+                "Calorie": "330",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "30"
+            }
+        },
+        {
+            "@odata.etag": "\"d33f167d-3375-4310-8f98-101aa0a90bf1,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:19:51Z",
+            "eTag": "\"d33f167d-3375-4310-8f98-101aa0a90bf1,10\"",
+            "id": "31",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:36Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/31_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('31')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"d33f167d-3375-4310-8f98-101aa0a90bf1,10\"",
+                "Title": "Z.Y BEZELYE",
+                "FoodCategory": "ZEYTİNYAĞLI",
+                "Calorie": "240",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "31"
+            }
+        },
+        {
+            "@odata.etag": "\"b468b92e-00f0-4f84-9747-d2ebee2cea4b,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:19:52Z",
+            "eTag": "\"b468b92e-00f0-4f84-9747-d2ebee2cea4b,10\"",
+            "id": "32",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:37Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/32_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('32')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"b468b92e-00f0-4f84-9747-d2ebee2cea4b,10\"",
+                "Title": "Z.Y KABAK KALYE",
+                "FoodCategory": "ZEYTİNYAĞLI",
+                "Calorie": "220",
+                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "id": "32"
+            }
+        },
+        {
+            "@odata.etag": "\"430e0eca-4b82-435c-95bc-0745a7ccc433,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:20:00Z",
+            "eTag": "\"430e0eca-4b82-435c-95bc-0745a7ccc433,10\"",
+            "id": "33",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:40Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/33_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('33')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"430e0eca-4b82-435c-95bc-0745a7ccc433,10\"",
+                "Title": "TAHİNLİ PUDİNG",
+                "FoodCategory": "TATLI",
+                "Calorie": "270",
+                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "id": "33"
+            }
+        },
+        {
+            "@odata.etag": "\"4a0df593-223f-4feb-a875-a91fe1cf366f,10\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:20:09Z",
+            "eTag": "\"4a0df593-223f-4feb-a875-a91fe1cf366f,10\"",
+            "id": "34",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:43Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/34_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('34')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"4a0df593-223f-4feb-a875-a91fe1cf366f,10\"",
+                "Title": "SUPANGLE",
+                "FoodCategory": "TATLI",
+                "Calorie": "250",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "34"
+            }
+        },
+        {
+            "@odata.etag": "\"a88b1663-509e-40dd-9db5-bfdde5020db5,9\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-01-19T07:20:21Z",
+            "eTag": "\"a88b1663-509e-40dd-9db5-bfdde5020db5,9\"",
+            "id": "35",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:47Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/35_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('35')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"a88b1663-509e-40dd-9db5-bfdde5020db5,9\"",
+                "Title": "EXPRESS MENÜ",
+                "FoodCategory": "EXPRESS MENÜ",
+                "Calorie": "100",
+                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "id": "35"
+            }
+        },
+        {
+            "@odata.etag": "\"fcbe0ba5-9bc4-4b5d-b006-294ed0077124,3\"",
+            "createdBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "createdDateTime": "2018-02-13T07:34:17Z",
+            "eTag": "\"fcbe0ba5-9bc4-4b5d-b006-294ed0077124,3\"",
+            "id": "36",
+            "lastModifiedBy": {
+                "user": {
+                    "id": "d39a7cd4-38c8-4532-a385-bff2a23d94ee",
+                    "displayName": "OGOO Hub"
+                }
+            },
+            "lastModifiedDateTime": "2018-02-15T16:41:54Z",
+            "lastModifiedDateTime": "2018-02-15T16:41:54Z",
+            "parentReference": {},
+            "webUrl": "https://ogoodigital.sharepoint.com/sites/hub/tr/Lists/Food/36_.000",
+            "contentType": {
+                "id": "0x0100CB1DE7333789A240B31EA5265EF2B99100A39CCFCC62C148428E44226D66A6DD65"
+            },
+            "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('ogoodigital.sharepoint.com')/microsoft.graph.getByPath/lists('Yemek%20Men%C3%BCs%C3%BC')/items('36')/fields(id,Title,Calorie,ItemStartDate,FoodCategory)/$entity",
+            "fields": {
+                "@odata.etag": "\"fcbe0ba5-9bc4-4b5d-b006-294ed0077124,3\"",
+                "Title": "TEST ÇORBA",
+                "FoodCategory": "DİYET ÇORBA",
+                "Calorie": "0",
+                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "id": "36"
+            }
+        }
+    ]
+}

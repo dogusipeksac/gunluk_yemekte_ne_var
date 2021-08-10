@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img02"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/toolBarColor"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@drawable/menu_icon"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vodafone_logo"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_height="45dp"
+            android:src="@drawable/notification_icon"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/prevImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_subdirectory_arrow_left_24"
+                android:layout_weight="1.5"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="5"
+                android:background="@drawable/img01"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:text="Yemekte Ne Var?"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:id="@+id/timeTextId"
+                    android:text="Tarih?"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/nextImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="@drawable/ic_baseline_subdirectory_arrow_right_24"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainRecycleView"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

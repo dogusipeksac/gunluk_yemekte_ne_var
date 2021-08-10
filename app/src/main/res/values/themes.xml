@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GunlukYemekProgrami" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#e60000</item>
+        <item name="colorPrimaryDark">#312B2B</item>
+        <item name="colorAccent">#312B2B</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
