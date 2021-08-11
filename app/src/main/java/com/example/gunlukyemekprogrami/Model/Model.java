@@ -1,4 +1,4 @@
-package com.example.gunlukyemekprogrami;
+package com.example.gunlukyemekprogrami.Model;
 
 import java.util.Date;
 
@@ -7,10 +7,10 @@ public class Model {
     private String foodCategory;
     private String title;
     private String calorie;
-    private Date itemStartDate;
+    private String itemStartDate;
 
 
-    public Model(String foodCategory, String title, String calorie, Date itemStartDate) {
+    public Model(String foodCategory, String title, String calorie, String itemStartDate) {
         this.foodCategory = foodCategory;
         this.title = title;
         this.calorie = calorie;
@@ -44,11 +44,11 @@ public class Model {
         this.calorie = calorie;
     }
 
-    public Date getItemStartDate() {
+    public String getItemStartDate() {
         return itemStartDate;
     }
 
-    public void setItemStartDate(Date itemStartDate) {
+    public void setItemStartDate(String  itemStartDate) {
         this.itemStartDate = itemStartDate;
     }
 }

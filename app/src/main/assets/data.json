@@ -30,7 +30,7 @@
                 "Title": "Arpa Şehriye Çorba",
                 "FoodCategory": "ÇORBA",
                 "Calorie": "160",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-18T21:00:00.000Z",
                 "id": "6"
             }
         },
@@ -63,7 +63,7 @@
                 "Title": "Şafak Çorba",
                 "FoodCategory": "EXPRESS MENÜ",
                 "Calorie": "270",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-17T21:00:00.000Z",
                 "id": "12"
             }
         },
@@ -96,7 +96,7 @@
                 "Title": "Fasulye",
                 "FoodCategory": "ÇORBA",
                 "Calorie": "213",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-14T21:00:00.000Z",
                 "id": "17"
             }
         },
@@ -129,7 +129,7 @@
                 "Title": "Fasulye",
                 "FoodCategory": "ÇORBA",
                 "Calorie": "215",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "19"
             }
         },
@@ -162,7 +162,7 @@
                 "Title": "Patates Musakka",
                 "FoodCategory": "ANA YEMEK",
                 "Calorie": "280",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-14T21:00:00.000Z",
                 "id": "21"
             }
         },
@@ -195,7 +195,7 @@
                 "Title": "Mevsim Türlü",
                 "FoodCategory": "ANA YEMEK",
                 "Calorie": "210",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-14T21:00:00.000Z",
                 "id": "22"
             }
         },
@@ -228,7 +228,7 @@
                 "Title": "Şehriyeli Pilav",
                 "FoodCategory": "ANA YEMEK",
                 "Calorie": "180",
-                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "23"
             }
         },
@@ -261,7 +261,7 @@
                 "Title": "Sütlü İrmik Tatlısı",
                 "FoodCategory": "TATLI",
                 "Calorie": "290",
-                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "24"
             }
         },
@@ -294,7 +294,7 @@
                 "Title": "YAYLA ÇORBA",
                 "FoodCategory": "ÇORBA",
                 "Calorie": "260",
-                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "25"
             }
         },
@@ -327,7 +327,7 @@
                 "Title": "DİYET ÇORBA",
                 "FoodCategory": "DİYET ÇORBA",
                 "Calorie": "100",
-                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "26"
             }
         },
@@ -360,7 +360,7 @@
                 "Title": "PİLİÇ SOTE 365 KCA",
                 "FoodCategory": "ANA YEMEK",
                 "Calorie": "365",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "27"
             }
         },
@@ -393,7 +393,7 @@
                 "Title": "KURUFASULYE",
                 "FoodCategory": "ANA YEMEK",
                 "Calorie": "380",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "28"
             }
         },
@@ -426,7 +426,7 @@
                 "Title": "PİRİNÇ PİLAVI 345 KC",
                 "FoodCategory": "YARDIMCI YEMEK",
                 "Calorie": "345",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "29"
             }
         },
@@ -459,7 +459,7 @@
                 "Title": "ERİŞTE KAVURMA",
                 "FoodCategory": "YARDIMCI YEMEK",
                 "Calorie": "330",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "30"
             }
         },
@@ -492,7 +492,7 @@
                 "Title": "Z.Y BEZELYE",
                 "FoodCategory": "ZEYTİNYAĞLI",
                 "Calorie": "240",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "31"
             }
         },
@@ -525,7 +525,7 @@
                 "Title": "Z.Y KABAK KALYE",
                 "FoodCategory": "ZEYTİNYAĞLI",
                 "Calorie": "220",
-                "ItemStartDate": "2018-02-14T21:00:00Z",
+                "ItemStartDate": "2018-02-14T21:00:00.000Z",
                 "id": "32"
             }
         },
@@ -558,7 +558,7 @@
                 "Title": "TAHİNLİ PUDİNG",
                 "FoodCategory": "TATLI",
                 "Calorie": "270",
-                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "33"
             }
         },
@@ -591,7 +591,7 @@
                 "Title": "SUPANGLE",
                 "FoodCategory": "TATLI",
                 "Calorie": "250",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "34"
             }
         },
@@ -624,7 +624,7 @@
                 "Title": "EXPRESS MENÜ",
                 "FoodCategory": "EXPRESS MENÜ",
                 "Calorie": "100",
-                "ItemStartDate": "2018-02-16T21:00:00Z",
+                "ItemStartDate": "2018-02-16T21:00:00.000Z",
                 "id": "35"
             }
         },
@@ -658,7 +658,7 @@
                 "Title": "TEST ÇORBA",
                 "FoodCategory": "DİYET ÇORBA",
                 "Calorie": "0",
-                "ItemStartDate": "2018-02-15T21:00:00Z",
+                "ItemStartDate": "2018-02-15T21:00:00.000Z",
                 "id": "36"
             }
         }

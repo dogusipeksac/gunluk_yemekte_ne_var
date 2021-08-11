@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.gunlukyemekprogrami.Model;
+import com.example.gunlukyemekprogrami.Model.Model;
 import com.example.gunlukyemekprogrami.R;
 
 import java.util.ArrayList;

@@ -1,9 +1,12 @@
-package com.example.gunlukyemekprogrami;
+package com.example.gunlukyemekprogrami.Paginator;
 
 import android.content.Context;
 
+import com.example.gunlukyemekprogrami.Model.Model;
+import com.example.gunlukyemekprogrami.Service.JsonService;
+
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
 import java.util.Map;
 
 public class Paginator {
@@ -14,9 +17,19 @@ public class Paginator {
     private JsonService service;
     private Context context;
 
-    public Paginator(Context context) {
+    private static Paginator paginator;
+
+    /////////////////////////////////////////Singleton
+    public static Paginator get(Context context){
+        if (paginator==null){
+            paginator=new Paginator(context);
+        }
+        return paginator;
+    }
+
+    private Paginator(Context context) {
         this.context = context;
-        service=new JsonService(context);
+        service=JsonService.get(context);
         start(service.getSizeOfDate());
 
     }
@@ -26,8 +39,10 @@ public class Paginator {
 
     }
 
-    public String getPageTitle(int currentPage){
+    public Date getPageTitle(int currentPage){
+
         return service.getDateOnIndex(currentPage);
+
     }
 
     public Map<String,ArrayList<Model>> generatePage(int currentPage){

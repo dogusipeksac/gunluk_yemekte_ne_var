@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/img02"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -51,7 +50,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/prevImage"
+                android:id="@+id/prevButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ic_baseline_subdirectory_arrow_left_24"
@@ -89,7 +88,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/nextImage"
+                android:id="@+id/nextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.5"
@@ -98,12 +97,21 @@
                 android:layout_gravity="center"/>
 
         </LinearLayout>
+
+
     </LinearLayout>
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/mainRecycleView"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:background="@drawable/img02"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mainRecycleView"
+
+            android:layout_margin="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
 
 </LinearLayout>

@@ -1,6 +1,8 @@
-package com.example.gunlukyemekprogrami;
+package com.example.gunlukyemekprogrami.Service;
 
 import android.content.Context;
+
+import com.example.gunlukyemekprogrami.Model.Model;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,23 +15,31 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class JsonService {
-    Context context;
-    Map<String, Map<String,ArrayList<Model>>> map;
+    public  static  Context context;
+    public static Map<Date, Map<String,ArrayList<Model>>> map;
 
+    private static JsonService jsonService;
 
-    public JsonService(Context context) {
+    /////////////////////////////////////////Singleton
+    public static JsonService get(Context context){
+        if (jsonService==null){
+            jsonService=new JsonService(context);
+        }
+        return jsonService;
+    }
+    //////////////////////////////////////////////////
 
+    private JsonService(Context context) {
         this.context = context;
-        map =new HashMap<String, Map<String,ArrayList<Model>>>();
+        map =new TreeMap<>();
         getJsonFileFromLocally();
     }
     ///////////////////////////////////////////local jsonu yolunu getirme
-    public String loadJSONFromAsset() {
+    public static String loadJSONFromAsset() {
         String json = null;
         try {
             InputStream is = context.getAssets().open("data.json");
@@ -58,10 +68,10 @@ public class JsonService {
 
                 /////////////////////////////////////////////getDate i.için
                 String dateString="";
-                dateString=jsonArray.getJSONObject(i).getJSONObject("fields").getString("ItemStartDate");
-                SimpleDateFormat formatter =
-                        new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
-                Date start = formatter.parse(dateString);
+                dateString=jsonArray
+                        .getJSONObject(i).getJSONObject("fields")
+                        .getString("ItemStartDate");
+                Date start=getDate(dateString);
                 ////////////////////////////////////////////////////////////////////
 
 
@@ -84,26 +94,25 @@ public class JsonService {
 
                 /////////////////////////////////////Nesneleri listeye ekledik
                 Model item=new Model();
-                item.setItemStartDate(start);
                 item.setCalorie(calorie+"\t\tKl");
                 item.setFoodCategory(foodCategory);
                 item.setTitle(title);
-                item.setItemStartDate(start);
+                item.setItemStartDate(start.toString());
                 //dosyadan çekilden verileri hashmap yapısına çevirmek
                 createHashMap(item,start);
                 ///////////////////////////////////////////////////////////////
             }
 
             // for
-        } catch (JSONException | ParseException e) {
+        } catch (JSONException e) {
             e.printStackTrace();
         }
     }
 
     public void createHashMap(Model item,Date start){
         //////////////////////////Hashmap Ekleme
-        String key=start.toString();
-        if(map.get(start.toString())==null){
+        Date  key=start;
+        if(map.get(key)==null){
             ArrayList<Model> temp=new ArrayList<>();
             temp.add(item);
             Map<String,ArrayList<Model>> arrayListMap=new HashMap<>();
@@ -130,26 +139,40 @@ public class JsonService {
         return map.size();
     }
 
-    ///////////////////////7hashmapdan tarihi getirme
-    public String getDateOnIndex(int index){
+    ////////////////////////hashmapdan tarihi getirme
+    public Date getDateOnIndex(int index){
+
         int i=0;
-        for(Map.Entry<String,Map<String,ArrayList<Model>>> date : map.entrySet()){
+        for(Map.Entry<Date,Map<String,ArrayList<Model>>> date : map.entrySet()){
             if(i == index){
                 return date.getKey();
+
             }
             i++;
         }
-        return "";
+        return null;
     }
-    //hashmapdan categorinin içindekilerin size getirme
+    ////////////////////////7hashmapdan categorinin içindekilerin size getirme
     public Map<String,ArrayList<Model>> getCategoriesOnIndex(int index){
         int i=0;
-        for(Map.Entry<String,Map<String,ArrayList<Model>>> date : map.entrySet()){
+        for(Map.Entry<Date,Map<String,ArrayList<Model>>> date : map.entrySet()){
             if(i == index){
                 return date.getValue();
             }
             i++;
         }
         return null;
+    }
+    /////////////////////////sıralama için gerekli date tipine dönüştürme
+    public Date getDate(String dateString){
+        SimpleDateFormat formatter =
+                new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Date start = formatter.parse(dateString);
+            return start;
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
